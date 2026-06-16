@@ -16,6 +16,7 @@ window.addEventListener('scroll', () => {
 function enviarCotizacion() {
   const nombre   = document.getElementById('nombre').value.trim();
   const telefono = document.getElementById('telefono').value.trim();
+  const tipo = document.getElementById('tipo').value.trim();
   const mensaje  = document.getElementById('mensaje').value.trim();
 
   if (!nombre || !telefono || !mensaje) {
@@ -26,6 +27,7 @@ function enviarCotizacion() {
   let texto = `Hola ElectriGATE, quiero cotizar \n\n`;
   texto += `*Nombre:* ${nombre}\n`;
   texto += `*Teléfono:* ${telefono}\n`;
+  texto += `*Tipo de Porton:* ${tipo}\n`;
   texto += `*Descripción:* ${mensaje}\n`;
 
 

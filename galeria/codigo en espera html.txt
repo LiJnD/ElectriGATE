@@ -95,18 +95,8 @@ paguina:
 
 cotización:
 Tipo de portones y sus medidas:
-      <div class="form-group">
-        <label>Tipo de portón</label>
-        <select id="tipo">
-          <option value="">— Selecciona una opción —</option>
-          <option>Portón batiente (1 hoja)</option>
-          <option>Portón batiente doble hoja</option>
-          <option>Portón corredera</option>
-          <option>Portón seccional</option>
-          <option>Reja / Cerco</option>
-          <option>Otro / No sé aún</option>
-        </select>
-      </div>
+  
+--medidas de portones 
       <div class="form-row">
         <div class="form-group">
           <label>Ancho aproximado (m)</label>
@@ -117,6 +107,7 @@ Tipo de portones y sus medidas:
           <input type="number" id="alto" placeholder="Ej: 2.2" step="0.1" min="0" />
         </div>
       </div>
+
 automatizar porton:
       <div class="form-group">
         <label>¿Quieres automatización?</label>
