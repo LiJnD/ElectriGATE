@@ -37,6 +37,7 @@ nav {
   transition: background 0.3s;
 }
 
+
 .nav-logo {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.7rem;
@@ -209,7 +210,11 @@ nav {
   border-color: var(--dorado);
   color: var(--dorado);
 }
-
+@media (max-width:800px) {
+   #inicio {
+flex-direction: column;
+   } 
+  }
 /* ── STATS ── */
 .stats-bar {
   background: var(--acero);
