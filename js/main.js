@@ -32,7 +32,7 @@ function enviarCotizacion() {
 
 
   const encoded = encodeURIComponent(texto);
-  window.open(`https://wa.me/56926373066?text=${encoded}`, '_blank');
+  window.open(`https://wa.me/56975127590?text=${encoded}`, '_blank');
 
   // Toast de confirmación
   const toast = document.getElementById('toast');
@@ -59,7 +59,7 @@ document.querySelectorAll('.service-card, .step, .garantia-item, .stat-item').fo
 
 // ── Cambio de teléfono y enlace WhatsApp — fácil personalización ──
 // CAMBIA AQUÍ tu número de WhatsApp (formato internacional sin +):
-const MI_WHATSAPP = '56926373066';
+const MI_WHATSAPP = '56975127590';
 document.querySelectorAll('[href*="wa.me"]').forEach(a => {
   const url = new URL(a.href);
   const txt = url.searchParams.get('text') || '';
