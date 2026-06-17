@@ -42,6 +42,8 @@ nav {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.7rem;
   letter-spacing: 3px;
+  gap: 10px;
+  text-decoration: none;
   color: var(--dorado);
 }
 .nav-logo span { color: var(--blanco); }
@@ -61,6 +63,13 @@ nav {
   transition: color 0.25s;
 }
 .nav-links a:hover { color: var(--dorado); }
+
+.nav-logo-img {
+  width:40px;
+  height:40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
 
 /* ── HERO ── */
 #inicio {
@@ -148,6 +157,14 @@ nav {
   font-style: normal;
   display: block;
 }
+
+.hero-logo-img {
+   width:130px;
+  height:90px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
 .hero-desc {
   font-size: 1.1rem;
   line-height: 2.2;
@@ -156,24 +173,6 @@ nav {
   margin-bottom: 48px;
   opacity: 0;
   animation: fadeUp 0.8s 0.6s forwards;
-}
-
-@media (max-width:620px) {
- .hero-title img {
-  width:70px;
-  height:auto;
-  margin-right:10px;
- } 
-
- .hero-desc {
-  font-size:1rem;
-  line-height:1.6;
- }
- 
- .nav-links {
-  display:none;
- }
-
 }
 
 .hero-ctas {
@@ -750,4 +749,5 @@ footer {
    .stat-item { min-width: 100%;  }
    section { padding: 60px 6vw;  }
    .btn { width:100%; justify-content:center;  }
+   .hero-logo-img { width:70px; height:auto; margin-right:10px; }
 }
